@@ -1,3 +1,3 @@
 <?php
-  define('BASE_URL', '/mvcPHP%20-%20cont/public');
+  define('BASE_URL', '/EXAMENMF0493/public');
 ?>
