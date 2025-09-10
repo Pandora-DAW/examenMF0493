@@ -36,6 +36,7 @@ require_once(__DIR__ . '/../modelos/Producto.php');
             $descripcion = $_POST['descripcion'];
             $precio = $_POST['precio'];
             $stock = $_POST['stock'];
+            $categoriaId = $_POST['categoria_id'];
 
             // Manejar la subida de la imagen
             $imagen_url = null;
@@ -56,8 +57,9 @@ require_once(__DIR__ . '/../modelos/Producto.php');
                 $precio,
                 $stock,
                 $imagen_url,
-                0,
-                $this->bd
+                $categoriaId,
+                $this->bd,
+                0
             );
 
             // Guardar en la base de datos

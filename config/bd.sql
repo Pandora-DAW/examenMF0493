@@ -36,4 +36,5 @@ create table productos (
     foreign key (idCategoria) references categorias(id)
 );
 
-
+INSERT INTO categorias (nombre_categoria) VALUES ('Monitores');
+INSERT INTO categorias (nombre_categoria) VALUES ('Periféricos');
